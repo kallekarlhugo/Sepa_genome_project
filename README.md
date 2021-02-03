@@ -1,4 +1,5 @@
 # Assembly pipeline for sepa pollinator genome project
+Feb1 2021
 
 ## input data
 each species was sequenced using Nanopore data as well as using Illumina data
