@@ -38,12 +38,12 @@ braker.pl --species=${genome%.fa}_prot --genome=genome.fa --prot_seq=$proteins -
 #Blap
 genome=Blap_polish_masked.fasta.softmasked.fa
 cd $prot && mkdir ${genome%.fa} && cd ${genome%.fa}
-braker.pl --species=${genome%.fa}_prot --genome=genome.fa --prot_seq=$proteins --cores=40 --gff3
+braker.pl --species=${genome%.fa}_prot --genome=genome.fa --prot_seq=$proteins --cores=40 --gff3 --softmasking
 Bhor
 genome=Bhor_polish_masked.fasta.softmasked.fa
 cd $prot && mkdir ${genome%.fa} && cd ${genome%.fa}
-braker.pl --species=${genome%.fa}_prot --genome=genome.fa --prot_seq=$proteins --cores=40 --gff3
+braker.pl --species=${genome%.fa}_prot --genome=genome.fa --prot_seq=$proteins --cores=40 --gff3 --softmasking
 Papollo
 genome=Papollo_polish_masked.fasta.softmasked.fa
 cd $prot && mkdir ${genome%.fa} && cd ${genome%.fa}
-braker.pl --species=${genome%.fa}_prot --genome=genome.fa --prot_seq=$proteins --cores=40 --gff3
+braker.pl --species=${genome%.fa}_prot --genome=genome.fa --prot_seq=$proteins --cores=40 --gff3 --softmasking
